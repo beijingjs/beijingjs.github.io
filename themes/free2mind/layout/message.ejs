@@ -1,0 +1,46 @@
+<div class="row page">
+    <div class="col-md-9">
+	    <!-- content -->
+
+	    <div class="slogan" style="margin-bottom: 17px">
+	      当前位置&nbsp;:&nbsp;<a href="<%- config.root %>" >首页&nbsp;</a>»&nbsp;给我留言
+	    </div>
+
+	    <div id="top_search"></div>
+		    
+	    <div class="archive">	  
+			<div id="archives"> 
+
+				您好, 欢迎访问我的博客!</br></br>
+				您可以在下面留下你的足迹, 也可以通过邮件与我联系! &nbsp;^_^ </br>
+				<span style="color:#2fa4e0"><i class="fa fa-envelope %>"></i></span> &nbsp;邮箱: <img style="display:inline-block; vertical-align:text-top" src="http://7xj852.com1.z0.glb.clouddn.com/email.jpg">
+				</br>
+			 </div>	
+	    </div>	
+
+	    <div class="ds-thread" id="ds-thread">   </div>		
+
+    </div><!-- row -->
+
+    <div class="col-md-3">
+	    <div id="sidebar">
+	    <%- partial('_widget/search') %>
+	    <%- partial('_widget/broadcast') %>
+	    <%- partial('_widget/category') %>
+	    <%- partial('_widget/links') %>  
+	    </div> <!-- sidebar -->
+    </div> <!-- col-md-3 -->
+
+	<!--多说js加载开始，一个页面只需要加载一次 -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"rudy-yuan"};
+	(function() {
+    	var ds = document.createElement('script');
+	    ds.type = 'text/javascript';ds.async = true;
+	    ds.src = 'http://static.duoshuo.com/embed.js';
+	    ds.charset = 'UTF-8';
+	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+	    })();
+	</script>
+
+</div>

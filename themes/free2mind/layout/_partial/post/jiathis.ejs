@@ -1,0 +1,39 @@
+<% if (theme.jiathis){ %>
+     <footer class="entry-meta">      
+
+	    <div class="fenlei" style="font-size:13.5px">
+			<span class="entry-categories">
+				<span class="fa fa-folder" aria-hidden="true"></span> 
+
+				<% item.categories.forEach(function(it){ %>
+					<a href="<%- config.root %><%- it.path %>"><%= it.name %></a>
+				<% }); %>
+
+			</span>
+			
+			<span class="entry-tags">        
+				<span class="fa fa-tags" aria-hidden="true"></span> 
+
+				<% item.tags.forEach(function(tag){ %>
+					<a href="<%- config.root %><%- tag.path %>"><%= tag.name %></a>&nbsp;
+				<% }); %>
+
+			</span>
+		</div>
+
+     
+		<!-- JiaThis Button BEGIN -->
+		<div class="jiathis_style" style="float:right;">
+			<span class="jiathis_txt">分享到：</span>
+			<a class="jiathis_button_qzone">QQ空间</a>
+			<a class="jiathis_button_tsina">新浪微博</a>
+			<a class="jiathis_button_weixin">微信</a>
+			<a class="jiathis_button_copy">复制</a>
+			<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+			<a class="jiathis_counter_style"></a>
+		</div>
+		<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+		<!-- JiaThis Button END -->
+		<br>
+    </footer>
+<% } %>

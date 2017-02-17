@@ -1,0 +1,69 @@
+<div class="row page">
+
+	<% if (theme.widgets.length) { %>
+	<div class="col-md-9">
+	<% } else { %>
+	<div class="col-md-12">
+	<% } %>
+
+		<%- partial('post/slogan') %>
+		<div id="top_search"></div>
+		
+		<!-- title and entry -->
+		<% page.posts.each(function(item){ %>
+            <div class="archive">	  
+				<div id="archives"> 
+				
+					<header class="entry-header">
+						<div class="entry-info" text-transform : capitalize>				     					      	      
+							
+							  <span class="entry-date">
+								  <span class="fa fa-calendar" aria-hidden="true"></span>
+								  <%= item.date.format(config.date_format) %>						      
+							  </span>
+							  
+							  <span class="author vcard">
+								  <span class="fa fa-user" aria-hidden="true"></span>
+								  <a href="<%- config.root %>"><%= config.author %></a> 	
+							  </span>
+
+
+
+							<span class="comments-link">
+								<span class="fa fa-comments" aria-hidden="true"></span>
+								<span class="ds-thread-count" data-thread-key="<%- item.path %>">暂无评论</span>
+							</span>	
+							
+						</div>	
+									
+						<h3 class="entry-title"> 
+							  <a href="<%- config.root %><%- item.path %>" ><%= item.title %></a>
+						</h3>
+
+					</header>
+
+					<%- partial('post/entry', {item: item, index: index}) %>
+
+					<footer class="entry-meta">					  
+						<a href="<%- config.root %><%- item.path %>" class="more-link"><span class="fa fa-link" aria-hidden="true"></span>  阅读全文</a>	
+					</footer>
+
+				</div>	
+
+             </div>
+		<% }); %>
+
+		<!-- pagination -->
+		<div>
+			<center>
+			<%- partial('index_pagination') %>
+			</center>
+		</div>
+		
+	</div> <!-- col-md-9 -->
+
+	<% if (theme.widgets.length) { %>
+		<%- partial('sidebar') %>
+	<% } %>
+	
+</div> <!-- row-fluid -->

@@ -1,0 +1,90 @@
+slogan: "Yet another bootstrap theme."
+
+theme: cerulean
+inverse: inverse
+
+menu:
+  - title: 热点文章
+    url: tags/热点文章/
+    intro: "All the tags."
+    icon: "fa fa-fire"
+  - title: 博主推荐
+    url: tags/博主推荐/
+    intro: "All the tags."
+    icon: "fa fa-volume-up"
+  - title: 文章归档
+    url: archives
+    intro: "All the articles."
+    icon: "fa fa-archive"
+  - title: 给我留言
+    url: message
+    intro: "All the tags."
+    icon: "fa fa-pencil"
+  - title: 关于本站
+    url: about
+    intro: "About me."
+    icon: "fa fa-info-circle"
+
+links:
+  - title: "Hexo"
+    url: http://hexo.io
+    intro: "My Linkin account."
+    icon: "fa fa-share"
+  - title: "我的github"
+    url: http://www.github.com/rudy-yuan
+    intro: "My Github account."
+    icon: "fa fa-github"
+  - title: "我的旧版博客"
+    url: http://yjiehn.sinaapp.com
+    intro: "My Linkin account."
+    icon: "fa fa-trash"
+  - title: "七牛云存储"
+    url: http://www.qiniu.com
+    intro: My Weibo account.
+    icon: fa fa-cloud-upload
+  - title: "北大互联网信息工程研发中心"
+    url: http://netlab.pkusz.edu.cn
+    intro: My Weibo account.
+    icon: fa fa-chain
+  - title: "武汉大学 计算机学院"
+    url: http://cs.whu.edu.cn
+    intro: My Weibo account.
+    icon: fa fa-chain
+  - title: "Hexo-Theme-Freemind"
+    url: http://github.com/wzpan/hexo-theme-freemind
+    intro: My Weibo account.
+    icon: fa fa-chain
+  - title: "WWT的博客"
+    url: http://www.wengweitao.com
+    intro: My Weibo account.
+    icon: fa fa-chain
+
+widgets:
+- search
+- broadcast
+- category
+- tagcloud
+- links
+- recent_comments
+- recent_visitor
+
+rss: 
+fancybox: true
+favicon: favicon.ico
+duoshuo_shortname: rudy-yuan
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: false
+  siteid:
+
+# search
+swiftype_key: YYG5W2xNQTns7U8J3YqW
+
+# share widgets
+bdshare: false
+jiathis: true
+

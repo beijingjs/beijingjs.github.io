@@ -1,0 +1,54 @@
+<div class="row page">
+    <div class="col-md-9">
+	    <!-- content -->
+
+	    <div class="slogan" style="margin-bottom: 17px">
+	      当前位置&nbsp;:&nbsp;<a href="<%- config.root %>" >首页&nbsp;</a>»&nbsp;关于本站
+	    </div>
+
+	    <div id="top_search"></div>
+		    
+	    <div class="archive">	  
+		<div id="archives"> 
+		  <h3>
+		  关于本站
+		  </h3>
+		
+		  <blockquote>
+			本博客于2013年上线，于2015年10月1日开始使用新的模板
+				    </br>
+				    </br>
+				    最新的博客基于Django1.7和网上开源模板搭建，部署在阿里云的ECS上，图片存储在七牛的云端
+			</br>
+			</br>
+			
+			若无特殊说明，本站所有文章均为原创文章，并遵循 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0协议</a> 发布
+
+		  </blockquote>
+		  </br>
+		
+		  <h3>
+		  关于我
+		  </h3>
+	      
+
+		  <blockquote>
+			一枚在校学生，2016年将踏入码农队伍
+			</br></br>伪愤青，看些武侠小说、历史之流，偏爱三国，喜欢摆弄花草
+		  </blockquote>
+		  </br>
+		 
+		 </div>	
+	    </div>	
+
+    </div><!-- row -->
+
+    <div class="col-md-3">
+		<div id="sidebar">
+			<%- partial('_widget/search') %>
+			<%- partial('_widget/broadcast') %>
+			<%- partial('_widget/links') %>   
+		</div> <!-- sidebar -->
+    </div> <!-- col-md-3 -->
+
+</div>

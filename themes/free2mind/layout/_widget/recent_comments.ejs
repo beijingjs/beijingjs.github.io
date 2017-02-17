@@ -1,0 +1,18 @@
+<div class="widget">
+	<h4 style="font-weight: bold; color: #333;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif"><%= __('recent_comments') %></h4>
+	<ul class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="0" data-show-admin="1" data-excerpt-length="100" ></ul>
+	
+	<script type="text/javascript">
+	    var duoshuoQuery = { short_name: '<%= theme.duoshuo_shortname %>' };
+	    (function() {
+	    var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+	</script>
+
+</div>
+
+

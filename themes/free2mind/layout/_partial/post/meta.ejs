@@ -1,0 +1,24 @@
+<% if (theme.widgets.length) { %>
+      <div class="col-md-3">
+	      <div id="sidebar">
+	      <%- partial('../../_widget/search') %>
+	      <%- partial('../../_widget/broadcast') %>
+
+	      <!-- toc -->	      
+	      <% if(item.toc){ %>
+		<div class="widget">
+		    <span style="font-size: 14px font-family: "Helvetica Neue", Helvetica, Arial, sans-serif">本文目录 <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a></span>
+		    <div id="toc" class="toc collapse in">
+			<%- toc(item.content, {class: "toc-article", list_number:false}) %>
+		    </div>
+		</div>
+	      <% } %>	      
+
+	      <%- partial('../../_widget/category') %>	
+	      <%- partial('../../_widget/tagcloud') %>
+	      <%- partial('../../_widget/links') %>
+	      <%- partial('../../_widget/recent_comments') %>	
+	      <%- partial('../../_widget/recent_visitor') %>    
+	      </div> <!-- sidebar -->
+      </div> <!-- col-md-3 -->
+<% } %>

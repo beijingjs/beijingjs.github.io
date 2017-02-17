@@ -1,0 +1,82 @@
+<style type="text/css">
+  .cls_container{height:24px;overflow:hidden;}
+  .cls_container ul{list-style-type:none;margin:0;padding:0;margin-left:0px;}
+  .cls_container ul li{height:24px;line-height:24px;float:left;display:inline;}
+</style>
+
+<div class="widget">
+	<h4 style="font-weight: bold; color: #333;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif"><%= __('broadcast') %></h4>
+
+	<div id="myscroll" class="cls_container">
+		<ul>
+		  <li><span style="color:red"><i class="fa fa-warning"></i>欢迎访问本站!</span></li></br>
+		  <li><span style="color:red"><i class="fa fa-warning"></i>本站内容已经全部进行迁移</span></li></br>
+		  <li><span style="color:red"><i class="fa fa-warning"></i>谷歌浏览器访问本站效果最佳!</span></li></br>
+		  <li><span style="color:red"><i class="fa fa-warning"></i>若URL失效，请使用本站内部搜索</span></li></br>
+		</ul>
+	</div>
+
+	<div id="showhint"></div>
+</div>
+
+<script type="text/javascript">
+	function $(element){
+	 if(arguments.length>1){
+	  for(var i=0,length=arguments.length,elements=[];i<length;i++){
+	   elements.push($(arguments[i]));
+	  }
+	  return elements;
+	 }
+	 if(typeof element=="string"){
+	  return document.getElementById(element);
+	 }else{
+	  return element;
+	 }
+	}
+	var Class={
+	 create:function(){
+	  return function(){
+	   this.initialize.apply(this,arguments);
+	  }
+	 }
+	}
+	Function.prototype.bind=function(object){
+	 var method=this;
+	 return function(){
+	  method.apply(object,arguments);
+	 }
+	}
+	var Scroll=Class.create();
+	Scroll.prototype={
+	 initialize:function(element,height){
+	  this.element=$(element);
+	  this.element.innerHTML+=this.element.innerHTML;
+	  this.height=height;
+	  this.maxHeight=this.element.scrollHeight/2;
+	  this.counter=0;
+	  this.scroll();
+	  this.timer="";
+	  this.element.onmouseover=this.stop.bind(this);
+	  this.element.onmouseout=function(){this.timer=setTimeout(this.scroll.bind(this),1000);}.bind(this);
+	 },
+	 scroll:function(){
+	  if(this.element.scrollTop<this.maxHeight){
+	   this.element.scrollTop++;
+	   this.counter++;
+	  }else{
+	   this.element.scrollTop=0;
+	   this.counter=0;
+	  }
+	  if(this.counter<this.height){
+	   this.timer=setTimeout(this.scroll.bind(this),20);
+	  }else{
+	   this.counter=0;
+	   this.timer=setTimeout(this.scroll.bind(this),3000);
+	  }
+	 },
+	 stop:function(){
+	  clearTimeout(this.timer);
+	 }
+	}
+	var myscroll=new Scroll("myscroll",24);
+</script>
