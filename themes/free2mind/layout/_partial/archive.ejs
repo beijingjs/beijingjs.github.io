@@ -4,8 +4,8 @@
    var posts = site.posts;
    if (page.category) {
    	  title = page.category;
-	  posts = page.posts;
-          kind = 1;
+	    posts = page.posts;
+      kind = 1;
    }
    if (page.tag) {
       title = page.tag;
@@ -49,14 +49,13 @@
 	<% } else { %>
 	<div class="col-md-12">
 	  <% } %>
-
 	  <div id="top_search"></div>
 
 	  <div class="archive">
 		<% posts.sort('date', -1).each(function(item){ %>
 		<%
 		   year = item.date.toDate().getFullYear();
-		   month = item.date.toDate().getMonth();	   
+		   month = item.date.toDate().getMonth();
 		%>
 		<% if (year != last_year){ %>
 			<% if (!is_first_year) { %>
@@ -78,7 +77,7 @@
 		<% } else { %>
 		   <span class="title"><a href="<%- config.root %><%- item.path %>" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
 		<% } %>
-		</li>			
+		</li>
 		<% }); %>
 		</ul>
 		</div>
@@ -88,4 +87,3 @@
 <% if (theme.widgets.length) { %>
 <%- partial('sidebar') %>
 <% } %>
-

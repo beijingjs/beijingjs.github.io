@@ -5,14 +5,14 @@
 # Site
 title: 北京前端交流群 - 578874693
 subtitle:
-description: 北京前端交流群是成都地区浏览量最大的中文前端门户网站，是由成都前端从业人员发起，为成都数以万计的互联网用户提供富有创意的前端新生活。
+description: 北京前端交流群是北京地区浏览量最大的中文前端门户网站，是由北京前端从业人员发起，为北京数以万计的互联网用户提供富有创意的前端新生活。
 author: 豪情
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://beijingjs.org/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -23,6 +23,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
+hero_dir: heroes
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:

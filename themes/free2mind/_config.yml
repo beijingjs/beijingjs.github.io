@@ -5,11 +5,11 @@ inverse: inverse
 
 menu:
   - title: 热点文章
-    url: tags/热点文章/
+    url: hot
     intro: "All the tags."
     icon: "fa fa-fire"
   - title: 博主推荐
-    url: tags/博主推荐/
+    url: recommend
     intro: "All the tags."
     icon: "fa fa-volume-up"
   - title: 文章归档
@@ -24,6 +24,10 @@ menu:
     url: about
     intro: "About me."
     icon: "fa fa-info-circle"
+  - title: 英雄榜
+    url: hero
+    intro: "heroes"
+    icon: "fa fa-crosshairs"
 
 links:
   - title: "Hexo"
@@ -60,15 +64,15 @@ links:
     icon: fa fa-chain
 
 widgets:
-- search
-- broadcast
-- category
-- tagcloud
-- links
-- recent_comments
-- recent_visitor
+  - search
+  - broadcast
+  - category
+  - tagcloud
+  - links
+  - recent_comments
+  - recent_visitor
 
-rss: 
+rss:
 fancybox: true
 favicon: favicon.ico
 duoshuo_shortname: rudy-yuan
@@ -82,9 +86,8 @@ baidu_tongji:
   siteid:
 
 # search
-swiftype_key: YYG5W2xNQTns7U8J3YqW
+# swiftype_key: YYG5W2xNQTns7U8J3YqW
 
 # share widgets
 bdshare: false
-jiathis: true
-
+# jiathis: true
