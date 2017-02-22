@@ -1,4 +1,14 @@
 [
+   {
+    "id": "0",
+    "username": "jikeytang",
+    "name": "豪情",
+    "blog": "http://jikey.cnblogs.com",
+    "github": "http://github.com/jikeytang",
+    "website": "http://www.jscss.me",
+    "word": "一直在打杂从未被超越",
+    "avatar": "https://avatars0.githubusercontent.com/u/539745?v=3&s=400"
+  },
   {
     "id": "1",
     "username": "butifulhands",
@@ -26,7 +36,7 @@
     "github": "https://github.com/chenjinxinlove",
     "website": "http://www.cnblogs.com/chenjinxinlove/",
     "word": "迷途小羔羊，一直在路上",
-    "avatar": "https://avatars3.githubusercontent.com/u/1932350?v=3&s=400"
+    "avatar": "https://avatars1.githubusercontent.com/u/17271743?v=3&s=460"
   },
   {
     "id": "4",
@@ -55,7 +65,7 @@
     "blog": "https://home.cnblogs.com/u/ruirui9820/feed/question/",
     "github": "https://github.com/Nancy9820",
     "word": "菜鸟学习中，每天学习一点点",
-    "avatar": "https://avatars0.githubusercontent.com/u/539745?v=3&s=400"
+    "avatar": "https://avatars0.githubusercontent.com/u/25782934?v=3&s=460"
   },
   {
     "id": "7",
