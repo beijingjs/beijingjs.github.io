@@ -58,7 +58,7 @@
     "avatar": "https://avatars0.githubusercontent.com/u/539745?v=3&s=400"
   },
   {
-    "id": "8",
+    "id": "7",
     "username": "yoyo",
     "name": "yoyo",
     "blog": "http://www.cnblogs.com/btgyoyo/",
@@ -67,7 +67,7 @@
     "avatar": "https://avatars2.githubusercontent.com/u/12043917?v=3&u=35e3fc3d135c8424f468fcd1cb45154a34ca20de&s=400"
   },
   {
-    "id": "9",
+    "id": "8",
     "username": "gnipbao",
     "name": "Gnip",
     "blog": "https://gnipbao.github.io/",
@@ -77,7 +77,7 @@
     "avatar": "https://avatars2.githubusercontent.com/u/16514704?v=3&u=867396feb78a1c24b29502d45d0febecaa0ed096&s=400"
   },
   {
-    "id": "10",
+    "id": "9",
     "username": "ahui",
     "name": "ArthurLi",
     "blog": "http://jiluz.com",
@@ -87,17 +87,17 @@
     "avatar": "http://jiluz.com/img/avatar.jpg"
   },
   {
-    "id": "11",
+    "id": "10",
     "username": "Cnzhu",
     "name": "TP520",
     "blog": "http://www.cnblogs.com/jblaozhu/",
     "github": "https://github.com/chinazhubin",
     "website": "",
     "word": "酱油之路，萧条长远",
-    "avatar": ""
+    "avatar": "https://avatars3.githubusercontent.com/u/22694433?v=3&s=400"
   },
   {
-    "id": "13",
+    "id": "11",
     "username": "wudipmd",
     "name": "woody",
     "blog": "http://www.cnblogs.com/woodyblog/",
@@ -107,33 +107,13 @@
     "avatar": "https://avatars1.githubusercontent.com/u/20884463?v=3&s=460"
   },
   {
-    "id": "14",
+    "id": "12",
     "username": "iSAM2016",
     "name": "急眼的蜗牛",
     "blog": "https://home.cnblogs.com/u/iSAM2016/",
     "github": "https://github.com/iSAM2016",
     "website": "",
     "word": "努力啊不一定成功，放弃一定失败",
-    "avatar": ""
-  },
-  {
-    "id": "15",
-    "username": "maruky",
-    "name": "丸子",
-    "blog": "https://maruky.github.io/",
-    "github": "https://github.com/maruky",
-    "word": "虽然菜，但是我还是要写，不然怎么会知道自己真的有多菜!",
-    "avatar": "https://maruky.github.io/images/logo.jpg"
-  },
-  {
-    "id": "16",
-    "username": "lottid",
-    "name": "戒爱",
-    "blog": "null",
-    "github": "https://github.com/lottid",
-    "website": "null",
-    "word": "以前在切图，现在还在切图的切图仔",
-    "avatar": "https://avatars2.githubusercontent.com/u/4384485?v=3&s=460"
+    "avatar": "https://avatars2.githubusercontent.com/u/16448699?v=3&s=400"
   }
-
 ]
