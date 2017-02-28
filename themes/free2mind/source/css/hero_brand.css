@@ -14,3 +14,6 @@
 .text-center{
   margin-top: 10px;
 }
+.col-md-4{
+  min-height:230px;
+}

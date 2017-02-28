@@ -10,7 +10,7 @@
       var html;
       html = "<div class='col-md-4 text-center'>"
                  + "<img class='hero_avatar' src= " + res[i]['avatar'] + " alt='avatar'>"
-                 + "<h3>" + res[i]['username'] + "</h3>"
+                 + "<h3>" + res[i]['name'] + "</h3>"
                  + "<p class='hero_links'>"
                  +    "<a href= " + res[i]['blog']+  " target='_blank'>博客</a>"
                  +    "<a href= " + res[i]['github']+ " target='_blank'>站点</a>"

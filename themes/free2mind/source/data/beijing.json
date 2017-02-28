@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "0",
     "username": "jikeytang",
     "name": "豪情",
@@ -49,14 +49,14 @@
     "avatar": "https://avatars0.githubusercontent.com/u/17020223?v=3&s=460"
   },
   {
-    "id":"5",
-    "username":"IT-girl-lijia",
-    "name":"丑小鸭",
-    "blog":"http://www.cnblogs.com/jiajia123/",
-    "github":"https://github.com/IT-girl-lijia",
-    "website":"",
-    "word":"纠结的笨鸟一直在努力的往前飞",
-    "avatar":"https://avatars3.githubusercontent.com/u/19953463?v=3&s=460"
+    "id": "5",
+    "username": "IT-girl-lijia",
+    "name": "丑小鸭",
+    "blog": "http://www.cnblogs.com/jiajia123/",
+    "github": "https://github.com/IT-girl-lijia",
+    "website": "http://www.cnblogs.com/jiajia123/",
+    "word": "纠结的笨鸟一直在努力的往前飞",
+    "avatar": "https://avatars3.githubusercontent.com/u/19953463?v=3&s=460"
   },
   {
     "id": "6",
@@ -102,7 +102,7 @@
     "name": "TP520",
     "blog": "http://www.cnblogs.com/jblaozhu/",
     "github": "https://github.com/chinazhubin",
-    "website": "",
+    "website": "http://www.cnblogs.com/jblaozhu/",
     "word": "酱油之路，萧条长远",
     "avatar": "https://avatars3.githubusercontent.com/u/22694433?v=3&s=400"
   },
@@ -112,7 +112,7 @@
     "name": "woody",
     "blog": "http://www.cnblogs.com/woodyblog/",
     "github": "https://github.com/gitwd",
-    "website": "",
+    "website": "http://www.cnblogs.com/woodyblog/",
     "word": "人生是一种考验，而这个世界就是考场",
     "avatar": "https://avatars1.githubusercontent.com/u/20884463?v=3&s=460"
   },
@@ -122,17 +122,17 @@
     "name": "急眼的蜗牛",
     "blog": "https://home.cnblogs.com/u/iSAM2016/",
     "github": "https://github.com/iSAM2016",
-    "website": "",
+    "website": "https://home.cnblogs.com/u/iSAM2016/",
     "word": "努力啊不一定成功，放弃一定失败",
     "avatar": "https://avatars2.githubusercontent.com/u/16448699?v=3&s=400"
   },
-  ,
   {
     "id": "13",
     "username": "maruky",
     "name": "丸子",
     "blog": "https://maruky.github.io/",
     "github": "https://github.com/maruky",
+    "website": "https://maruky.github.io/",
     "word": "虽然菜，但是我还是要写，不然怎么会知道自己真的有多菜!",
     "avatar": "https://maruky.github.io/images/logo.jpg"
   },
@@ -160,9 +160,9 @@
     "id": "16",
     "username": "Nancy",
     "name": "蕊蕊儿",
-    "blog": "https://home.cnblogs.com/u/ruirui9820/feed/question/",
+    "blog": "https://ruirui9820.cnblogs.com/",
     "github": "https://github.com/Nancy9820",
-    "website": "",
+    "website": "https://ruirui9820.cnblogs.com/",
     "word": "加油加油",
     "avatar": "https://avatars3.githubusercontent.com/u/20471750?v=3&s=400"
   },
@@ -182,7 +182,7 @@
     "name": "大橙子",
     "blog": "http://www.cnblogs.com/chencheng365/",
     "github": "https://github.com/chencheng365",
-    "website": "null",
+    "website": "http://www.cnblogs.com/chencheng365/",
     "word": "人生在勤，不索何获",
     "avatar": "https://avatars3.githubusercontent.com/u/17995843?v=3&s=460"
   },
@@ -190,9 +190,9 @@
     "id": "19",
     "username": "xiaoC",
     "name": "小溪",
-    "blog": "",
+    "blog": "#",
     "github": "https://github.com/Happy-xiaoxi",
-    "website": "",
+    "website": "#",
     "word": "从未退缩，永不停歇",
     "avatar": "https://avatars3.githubusercontent.com/u/12512209?v=3&s=400"
   },
