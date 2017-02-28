@@ -125,5 +125,95 @@
     "website": "",
     "word": "努力啊不一定成功，放弃一定失败",
     "avatar": "https://avatars2.githubusercontent.com/u/16448699?v=3&s=400"
+  },
+  ,
+  {
+    "id": "13",
+    "username": "maruky",
+    "name": "丸子",
+    "blog": "https://maruky.github.io/",
+    "github": "https://github.com/maruky",
+    "word": "虽然菜，但是我还是要写，不然怎么会知道自己真的有多菜!",
+    "avatar": "https://maruky.github.io/images/logo.jpg"
+  },
+  {
+    "id": "14",
+    "username": "lottid",
+    "name": "戒爱",
+    "blog": "null",
+    "github": "https://github.com/lottid",
+    "website": "null",
+    "word": "以前在切图，现在还在切图的切图仔",
+    "avatar": "https://avatars2.githubusercontent.com/u/4384485?v=3&s=460"
+  },
+  {
+    "id": "15",
+    "username": "smile",
+    "name": "smile",
+    "blog": "https://segmentfault.com/u/kuaidian",
+    "github": "https://github.com/wangfeng0596",
+    "website": "https://github.com/wangfeng0596",
+    "word": "如果你相信自己，你可以做任何事",
+    "avatar": "https://avatars3.githubusercontent.com/u/20471750?v=3&s=400"
+  },
+  {
+    "id": "16",
+    "username": "Nancy",
+    "name": "蕊蕊儿",
+    "blog": "https://home.cnblogs.com/u/ruirui9820/feed/question/",
+    "github": "https://github.com/Nancy9820",
+    "website": "",
+    "word": "加油加油",
+    "avatar": "https://avatars3.githubusercontent.com/u/20471750?v=3&s=400"
+  },
+  {
+    "id": "17",
+    "username": "Nassicy",
+    "name": "宛沁汐",
+    "blog": "http://www.5iblog.com",
+    "github": "https://github.com/Nassicy",
+    "website": "http://www.5iblog.com",
+    "word": "现在的努力，是为了将来能拥有更好的自己",
+    "avatar": "https://avatars2.githubusercontent.com/u/16526046?v=3&s=460"
+  },
+  {
+    "id": "18",
+    "username": "orange",
+    "name": "大橙子",
+    "blog": "http://www.cnblogs.com/chencheng365/",
+    "github": "https://github.com/chencheng365",
+    "website": "null",
+    "word": "人生在勤，不索何获",
+    "avatar": "https://avatars3.githubusercontent.com/u/17995843?v=3&s=460"
+  },
+  {
+    "id": "19",
+    "username": "xiaoC",
+    "name": "小溪",
+    "blog": "",
+    "github": "https://github.com/Happy-xiaoxi",
+    "website": "",
+    "word": "从未退缩，永不停歇",
+    "avatar": "https://avatars3.githubusercontent.com/u/12512209?v=3&s=400"
+  },
+  {
+    "id": "20",
+    "username": "duabababa",
+    "name": "小杜",
+    "blog": "http://www.cnblogs.com/duabababa/ ",
+    "github": "https://github.com/duabababa",
+    "website": "http://www.cnblogs.com/duabababa/",
+    "word": "好好学习，天天向上",
+    "avatar": "https://avatars3.githubusercontent.com/u/25520702?v=3&s=460"
+  },
+  {
+    "id": "21",
+    "username": "zhaomenghuan",
+    "name": "小青年",
+    "blog": "http://zhaomenghuan.github.io/ ",
+    "github": "https://github.com/zhaomenghuan",
+    "website": "http://zhaomenghuan.github.io/",
+    "word": "毅力战胜坎坷，信心铸就辉煌",
+    "avatar": "https://avatars3.githubusercontent.com/u/13075561?v=3&s=460"
   }
 ]
