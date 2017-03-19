@@ -21,7 +21,7 @@ menu:
     intro: "heroes"
     icon: "fa fa-bookmark"
   - title: 英雄榜
-    url: categories/hr/
+    url: hero
     intro: "heroes"
     icon: "fa fa-crosshairs"
 
