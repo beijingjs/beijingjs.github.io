@@ -12,8 +12,16 @@ menu:
     url: archives
     intro: "All the articles."
     icon: "fa fa-archive"
+  - title: 招聘
+    url: categories/hr/
+    intro: "All the articles."
+    icon: "fa fa-binoculars"
+  - title: 求职
+    url: categories/job/
+    intro: "heroes"
+    icon: "fa fa-bookmark"
   - title: 英雄榜
-    url: hero
+    url: categories/hr/
     intro: "heroes"
     icon: "fa fa-crosshairs"
 
