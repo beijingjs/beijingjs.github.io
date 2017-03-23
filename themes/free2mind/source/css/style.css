@@ -437,7 +437,7 @@ h3, .h3,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, Microsoft Yahei;
   font-weight: normal;
   color: #333;
 }
@@ -470,7 +470,6 @@ h6, .h6 {
 
 .page .entry h2{
   display:block; overflow: hidden; width: 0; height: 0;
-  margin: -20px 0;
 }
 
 .page .entry h3{
