@@ -11,15 +11,15 @@ categories: job
 - 手机：13315592387
 - QQ: 734783679
 - 邮箱: chxy_xinyu@163.com
-- github: github.com/RizzleCi
-- 博客: rizzleci.github.io
+- github: https://github.com/RizzleCi
+- 博客: http://rizzleci.github.io/
 - 期望职位：web前端开发工程师
 
 ## 技能清单
-- 熟练掌握 HTML5、CSS3、JavaScript 开发，了解 ES6 规范；
+- 熟练掌握 `Html5、Css3、JavaScript` 开发，了解 ES6 规范；
 - 熟悉前端开发框架React，对React相关技术栈Redux有项目经验；
 - 了解项目构建工具webpack；了解css预编译工具Sass；
-- 了解jQuery、Zepto类库；
+- 了解`jQuery、Zepto`类库；
 - 熟悉基于git的工作模型，掌握常用的git命令，熟悉Linux工作环境；
 
 ## 工作经验
