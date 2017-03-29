@@ -1,5 +1,4 @@
 .hero_container{
-  border: 1px solid gray;
   border-radius: 6px;
   padding-top: 10px;
 }
@@ -15,5 +14,8 @@
   margin-top: 10px;
 }
 .col-md-4{
-  min-height:230px;
+  min-height:240px;
+}
+.col-md-4 h3{
+  margin-top:10px;
 }

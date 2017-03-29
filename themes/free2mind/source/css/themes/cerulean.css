@@ -4151,7 +4151,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 70px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4259,7 +4259,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 15px 15px;
   font-size: 25px;
-  line-height: 20px;
+  line-height:40px;
   height: 50px;
 }
 .navbar-brand:hover,
@@ -4310,7 +4310,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 40px;
   font-size:16px;
 }
 @media (max-width: 767px) {
@@ -4337,7 +4337,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {
@@ -6734,9 +6734,7 @@ button.close {
   background-image: -o-linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
   background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54b4eb', endColorstr='#ff1d9ce5', GradientType=0);
   border-bottom: 1px solid #178acc;
-  filter: none;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
@@ -6745,13 +6743,7 @@ button.close {
   color: #2fa4e7;
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(#04519b, #044687 60%, #033769);
-  background-image: -o-linear-gradient(#04519b, #044687 60%, #033769);
-  background-image: linear-gradient(#04519b, #044687 60%, #033769);
-  background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff04519b', endColorstr='#ff033769', GradientType=0);
-  filter: none;
-  border-bottom: 1px solid #022241;
+  background: #04519b;
 }
 .navbar-inverse .badge {
   background-color: #fff;
@@ -6894,7 +6886,7 @@ h4 {
 .content {
   background-color: #ffffff;
   color: #555555;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 a {
   color: #2fa4e7;
