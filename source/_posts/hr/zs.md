@@ -1,5 +1,5 @@
 ---
-title: 【猎头招聘】派格天马-资深前端开发工程师
+title: 【招聘】派格天马-资深前端开发工程师
 date: 2017-04-12 22:30:12
 type: "categories"
 categories: hr
