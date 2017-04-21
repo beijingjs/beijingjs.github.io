@@ -47,7 +47,8 @@ widgets:
 rss:
 fancybox: true
 favicon: favicon.ico
-duoshuo_shortname: beijingjs
+# duoshuo_shortname: beijingjs
+gitcomment: beijingjs
 
 # Analytics
 google_analytics:

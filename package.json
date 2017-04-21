@@ -6,6 +6,7 @@
     "version": "3.3.1"
   },
   "dependencies": {
+    "gitment": "0.0.3",
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.2.0",
     "hexo-filter-highlight": "0.0.3",
